@@ -17,6 +17,8 @@
 		805771C0267F2509004DFF10 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805771BF267F2509004DFF10 /* model.swift */; };
 		805771C2267F2A23004DFF10 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805771C1267F2A23004DFF10 /* MemoListTableViewController.swift */; };
 		805771C4267F4B60004DFF10 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805771C3267F4B60004DFF10 /* ComposeViewController.swift */; };
+		808B99ED2682D6C5001B3554 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 808B99EB2682D6C5001B3554 /* Model.xcdatamodeld */; };
+		808B99F02682DCD4001B3554 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808B99EF2682DCD4001B3554 /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		805771BF267F2509004DFF10 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		805771C1267F2A23004DFF10 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		805771C3267F4B60004DFF10 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		808B99EC2682D6C5001B3554 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		808B99EF2682DCD4001B3554 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		805771A9267F1684004DFF10 /* jmcMemo */ = {
 			isa = PBXGroup;
 			children = (
+				808B99EE2682DCBC001B3554 /* Data */,
 				805771BE267F24ED004DFF10 /* Model */,
 				805771AA267F1684004DFF10 /* AppDelegate.swift */,
 				805771AC267F1684004DFF10 /* SceneDelegate.swift */,
@@ -75,6 +80,7 @@
 				805771C3267F4B60004DFF10 /* ComposeViewController.swift */,
 				802530EE268058ED00007317 /* UIViewController+Alert.swift */,
 				802530F02680690000007317 /* DetailViewController.swift */,
+				808B99EB2682D6C5001B3554 /* Model.xcdatamodeld */,
 			);
 			path = jmcMemo;
 			sourceTree = "<group>";
@@ -85,6 +91,14 @@
 				805771BF267F2509004DFF10 /* model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		808B99EE2682DCBC001B3554 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				808B99EF2682DCD4001B3554 /* DateManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +174,11 @@
 				805771C4267F4B60004DFF10 /* ComposeViewController.swift in Sources */,
 				805771AB267F1684004DFF10 /* AppDelegate.swift in Sources */,
 				805771C0267F2509004DFF10 /* model.swift in Sources */,
+				808B99ED2682D6C5001B3554 /* Model.xcdatamodeld in Sources */,
 				802530EF268058ED00007317 /* UIViewController+Alert.swift in Sources */,
 				805771AD267F1684004DFF10 /* SceneDelegate.swift in Sources */,
 				805771C2267F2A23004DFF10 /* MemoListTableViewController.swift in Sources */,
+				808B99F02682DCD4001B3554 /* DateManager.swift in Sources */,
 				802530F12680690000007317 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +383,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		808B99EB2682D6C5001B3554 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				808B99EC2682D6C5001B3554 /* Model.xcdatamodel */,
+			);
+			currentVersion = 808B99EC2682D6C5001B3554 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8057719F267F1684004DFF10 /* Project object */;
 }
